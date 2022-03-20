@@ -15,15 +15,15 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Intrest Calculater</h1>
-      <h3>Intrest is on 17%</h3>
+      <h1>Interest Calculater</h1>
+      <h3>Interest is on 17%</h3>
       <br></br>
       <input type='number' onChange={(event) => handleChange(event)} />
       <br></br>
       <br></br>
       <div>Total Sum: {resualt}</div>
       <br></br>
-      <div>Total Intrest: {intrest}</div>
+      <div>Total Interest: {intrest}</div>
     </div>
   );
 }
